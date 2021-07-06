@@ -1,4 +1,6 @@
-import { LitElement, html,css, customElement, query, property } from 'lit-element';
+import { LitElement, html,css } from 'lit';
+import { customElement, query, property } from 'lit/decorators';
+
 import { IPerson } from '../people';
 
 @customElement('person-card')

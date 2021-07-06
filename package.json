@@ -10,9 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "lit-element": "^2.4.0"
-  },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "^3.2.0",
@@ -21,5 +18,8 @@
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "lit": "^2.0.0-rc.2"
   }
 }
