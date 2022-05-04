@@ -36,7 +36,7 @@ class PersonCardElement extends LitElement {
     image;
 
     firstUpdated() {
-        this.image.style.setProperty('--image-url',`url(${this.person.image})`)
+        this.image.style.setProperty('--image-url',`url('${this.person.image}')`)
     }
 
     makeFavourite() {
