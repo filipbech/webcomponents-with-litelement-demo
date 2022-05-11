@@ -17,8 +17,8 @@ class PersonCardElement extends LitElement {
         margin-bottom:0;
     }
     #img {
-        width:50px;
-        height:50px;
+        width:80px;
+        height:80px;
         border-radius:50%;
         margin-right:10px;
         background-size:cover;
@@ -49,7 +49,7 @@ class PersonCardElement extends LitElement {
             <div id="img" alt=${this.person.name}></div>
             <h5>${this.person.name}</h5>
             ${this.person.title ? html`${this.person.title}<br>`: ''}
-            <a href="mailto:${this.person.email}">${this.person.email}</a>
+            <a href="mailto:${this.person.email}">${this.person.email}</a><br/>
             <button @click=${this.makeFavourite}>Make Favourite</button>
         `;
     }
